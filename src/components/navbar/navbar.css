@@ -1,0 +1,59 @@
+.navbar {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.navbar__links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar__logo {
+  margin-right: 2rem;
+}
+
+.navbar__logo img {
+  width: 62.56px;
+  height: 16.02px;
+}
+
+.navbar__linksContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar__sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar__linksContainer p,
+.navbar__sign p,
+.navbar__menuContainer p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.navbar__sign button {
+  /*padding: 0.8rem 1.5rem;*/
+  width: 152px;
+  height: 58px;
+  background: #ff4820;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  cursor: pointer;
+}
