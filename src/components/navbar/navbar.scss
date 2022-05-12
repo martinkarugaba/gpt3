@@ -1,0 +1,129 @@
+.navbar {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.navbar__links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar__logo {
+  margin-right: 2rem;
+}
+
+.navbar__logo img {
+  width: 62.56px;
+  height: 16.02px;
+}
+
+.navbar__linksContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar__sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar__linksContainer p,
+.navbar__sign p,
+.navbar__menuContainer p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.navbar__sign button, .mobileMenu__sign button {
+  padding: 1rem 2rem;
+  background: #ff4820;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+// start mobile menu //
+
+.navbar__mobileMenu {
+  display: none;
+  margin-left: 1rem;
+  position: relative;
+
+  svg {
+    cursor: pointer;
+  }
+}
+
+.mobileMenu__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+
+  p {
+    margin: 1rem 0;
+    color: #fff;
+  }
+}
+
+.mobileMenu__sign {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  .navbar__linksContainer {
+    display: none;
+  }
+
+  .navbar__mobileMenu {
+    display: flex;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .navbar {
+    padding: 2rem;
+  }
+
+  .navbar__sign {
+    display: none;
+  }
+
+  .mobileMenu__container {
+    top: 20px; 
+  }
+
+  .mobileMenu__sign{
+    display: block;
+  }
+}
