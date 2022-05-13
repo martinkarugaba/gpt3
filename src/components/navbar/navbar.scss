@@ -13,6 +13,9 @@
 }
 
 .navbar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 2rem;
 }
 
@@ -45,9 +48,12 @@
   cursor: pointer;
 }
 
-.navbar__sign button, .mobileMenu__sign button {
+.navbar__sign button,
+.mobileMenu__sign button {
   padding: 1rem 2rem;
   background: #ff4820;
+  color: #fff;
+  font-size: .9rem;
   border: none;
   outline: none;
   border-radius: 5px;
@@ -120,10 +126,10 @@
   }
 
   .mobileMenu__container {
-    top: 20px; 
+    top: 20px;
   }
 
-  .mobileMenu__sign{
+  .mobileMenu__sign {
     display: block;
   }
 }

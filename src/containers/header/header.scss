@@ -17,19 +17,18 @@
 
   h1 {
     font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 62px;
-    line-height: 75px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
     letter-spacing: -0.04em;
   }
 
   p {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 27px;
     color: var(--color-text);
-
     margin-top: 1.5rem;
   }
 
@@ -51,8 +50,8 @@
       outline: none;
       color: #fff;
       font-family: "Manrope";
-      font-weight: 400;
-      font-size: 16px;
+      font-weight: 500;
+      font-size: 15px;
       line-height: 27px;
       color: #3d6184;
     }
@@ -65,7 +64,7 @@
       border-radius: 0px 5px 5px 0px;
       font-family: "Manrope";
       font-weight: 500;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 27px;
       color: #ffffff;
       cursor: pointer;
