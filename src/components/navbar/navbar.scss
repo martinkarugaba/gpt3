@@ -1,8 +1,8 @@
 .navbar {
-  display: flex !important;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 6rem;
+  padding: 2rem 6rem 0 6rem;
 }
 
 .navbar__links {
@@ -38,7 +38,7 @@
   color: #fff;
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
   text-transform: capitalize;
   margin: 0 1rem;
