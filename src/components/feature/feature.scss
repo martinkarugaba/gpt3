@@ -1,0 +1,32 @@
+.feature {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin: 1rem;
+
+  .feature__title {
+    flex: 1;
+    max-width: 180px;
+    margin-right: 2rem;
+
+    h1 {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: -0.04em;
+      color: #ffffff;
+    }
+
+    div {
+      width: 38px;
+      height: 3px;
+      background: var(--gradient-bar);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      margin-bottom: 0.5rem;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './feature.css';
+import './feature.scss';
 
 const Feature = ({title, text}) => {
   return <div className='feature'>
