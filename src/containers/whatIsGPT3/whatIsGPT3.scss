@@ -54,12 +54,20 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 8rem;
+    gap: 5rem;
     width: 100%;
 
+    .feature__title{
+      flex: 0.3;
+    }
+
     .feature__text {
-      flex: 1;
+      flex: 0.7;
       max-width: 900px;
+
+      p{
+        margin-top: 0;
+      }
     }
   }
 }
@@ -75,8 +83,8 @@
     font-family: "Manrope";
     font-style: normal;
     font-weight: 800;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 48px;
+    line-height: 60px;
     width: 22ch;
   }
 
