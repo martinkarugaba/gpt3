@@ -1,8 +1,7 @@
 .whatIsGPT3 {
   display: flex;
   flex-direction: column;
-
-  padding: 2rem;
+  padding: 4rem;
   background: var(--color-footer);
 
   /* ff 3.6+ */
@@ -48,24 +47,27 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.feature {
-  display: flex;
-}
-
-.feature,
 .whatIsGPT3__featureContainer {
-  margin: 0;
-}
+  width: 100%;
 
-.feature,
-.whatIsGPT3__featureText {
-  max-width: 700px;
+  .feature {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8rem;
+    width: 100%;
+
+    .feature__text {
+      flex: 1;
+      max-width: 900px;
+    }
+  }
 }
 
 .whatIsGPT3__heading {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
   margin: 4rem 0 2rem;
 
@@ -73,9 +75,9 @@
     font-family: "Manrope";
     font-style: normal;
     font-weight: 800;
-    font-size: 34px;
-    line-height: 45px;
-    min-width: 510px;
+    font-size: 36px;
+    line-height: 48px;
+    width: 22ch;
   }
 
   p {
@@ -91,6 +93,7 @@
 
 .feature__container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 2rem;
 

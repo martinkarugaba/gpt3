@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  margin: 1rem;
+  //margin: 1rem;
 
   .feature__title {
     flex: 1;
@@ -26,7 +26,22 @@
       height: 3px;
       background: var(--gradient-bar);
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.7rem;
+    }
+  }
+
+  .feature__text {
+    flex: 2;
+    max-width: 390px;
+    display: flex;
+
+    p {
+      font-family: "Manrope";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #81afdd;
+      margin-top: 2rem;
     }
   }
 }
