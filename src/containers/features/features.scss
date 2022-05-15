@@ -69,3 +69,20 @@
     }
   }
 }
+
+@media screen and (max-width: 990px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .features__heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .features__heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
