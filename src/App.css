@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+/*h1{
+  all: unset;
+}*/
+
 .gradient__bg {
   /* ff 3.6+ */
   background: -moz-radial-gradient(
