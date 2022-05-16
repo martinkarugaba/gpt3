@@ -3,20 +3,18 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
-  //margin: 1rem;
-
+ 
   .feature__title {
     flex: 1;
     max-width: 250px;
     margin-right: 2rem;
 
-    h1 {
+    h3 {
       font-family: "Manrope";
       font-style: normal;
       font-weight: 700;
-      font-size: 18px;
-      line-height: 36px;
+      font-size: 16px;
+      line-height: 24px;
       letter-spacing: -0.04em;
       color: #fafafa;
     }
@@ -40,7 +38,7 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 24px;
-      color: rgba(129, 175, 221, 0.9);
+      color: rgb(129, 175, 221);
       margin-top: 2rem;
     }
   }

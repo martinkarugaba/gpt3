@@ -92,7 +92,7 @@
     font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: var(--color-subtext);
     cursor: pointer;
@@ -111,6 +111,11 @@
     min-width: 210px;
     display: unset;
     flex-direction: column;
+  }
+
+  .feature__title{
+    font-size: 1rem;
+    color: #fff;
   }
 
   .feature__text {

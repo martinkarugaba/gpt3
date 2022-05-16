@@ -7,10 +7,10 @@ const Features = () => {
   return (
     <div className="features__section section__padding" id="features">
       <div className="features__heading">
-        <h1 className="gradient__text">
+        <h2 className="gradient__text">
           The Future is Now and You Just Need To Realize It. Step into the
           Future Today & Make it Happen.
-        </h1>
+        </h2>
         <p>Request Early Access to Get Started</p>
       </div>
       <section className="features__container">
