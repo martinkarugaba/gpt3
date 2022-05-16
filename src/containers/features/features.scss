@@ -5,11 +5,24 @@
   align-items: center;
   gap: 5rem;
   /* global 92%+ browsers support */
-  background: radial-gradient(
-    circle at 0% 40%,
-    #002853 0%,
-    #040c18 50%
-  );
+  background: linear-gradient(270deg, #002853 0%, #040c18 100%);
+  position: relative;
+
+  // *this is the gradient surrounding the features section
+  //&:before {
+  //  content: "";
+  //  //border: 1px solid white;
+  //  height: 1500px;
+  //  width: 1000px;
+  //  position: absolute;
+  //  left: 0;
+  //  background: radial-gradient(
+  //    circle at 0% 45%,
+  //    #002853 0%,
+  //    #040c18 50%
+  //  );
+  //  z-index: -1;
+  //}
 
   .features__heading {
     flex: 0.5;
