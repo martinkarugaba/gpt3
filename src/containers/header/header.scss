@@ -40,7 +40,6 @@
 
     input {
       flex: 2;
-      width: 100%;
       min-height: 50px;
 
       background: var(--color-footer);
@@ -57,21 +56,19 @@
     }
 
     button {
-      flex: 0.6;
-      width: 100%;
-      min-height: 50px;
+      //min-height: 50px;
+      color: #ffffff;
       background: #ff4820;
       border-radius: 0px 5px 5px 0px;
       font-family: "Manrope";
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 27px;
-      color: #ffffff;
-      cursor: pointer;
-      outline: none;
-      padding: 0 1rem;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0.7rem 2rem;
+
       border: none;
       outline: none;
+      cursor: pointer;
     }
   }
 
