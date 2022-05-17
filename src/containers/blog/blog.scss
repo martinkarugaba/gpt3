@@ -1,0 +1,35 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+
+  .blog__sectionHeading {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+
+    h2 {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 60px;
+      line-height: 75px;
+      letter-spacing: -0.04em;
+    }
+  }
+
+  .blog__articlesContainer{
+    display: flex;
+    gap: 2rem;
+
+    .blog__topArticle{
+      flex: 0.4;
+    }
+
+    .blog__moreArticles{
+      flex: 0.6;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  }
+}
