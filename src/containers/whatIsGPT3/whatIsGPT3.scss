@@ -73,7 +73,7 @@
 
   h2 {
     font-size: 36px;
-    line-height: 45px;
+    line-height: 48px;
     font-style: normal;
     font-weight: 800;
     width: 20ch;
@@ -82,7 +82,7 @@
   p {
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 30px;
     color: var(--color-subtext);
     cursor: pointer;
@@ -115,6 +115,11 @@
 
   .feature__text {
     margin-top: 0.5rem;
+
+    p{
+      font-size: 14px;
+      line-height: 24px;
+    }
   }
 }
 
