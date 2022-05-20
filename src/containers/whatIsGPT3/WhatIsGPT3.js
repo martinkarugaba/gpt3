@@ -12,9 +12,9 @@ const WhatIsGPT3 = () => {
         />
       </div>
       <div className="whatIsGPT3__heading">
-        <h1 className="gradient__text">
+        <h2 className="gradient__text">
           The possibilities are beyond your imagination
-        </h1>
+        </h2>
         <p>Explore The Library</p>
       </div>
       <section className="feature__container">

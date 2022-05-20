@@ -8,7 +8,7 @@ const Features = () => {
     <div className="features__section section__padding" id="features">
       <div className="features__heading">
         <h2 className="gradient__text">
-          The Future is Now and You Just Need To Realize It. Step into the
+          The future is now and you just need to realize It. Step into the
           Future Today & Make it Happen.
         </h2>
         <p>Request Early Access to Get Started</p>

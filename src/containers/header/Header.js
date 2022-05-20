@@ -5,7 +5,7 @@ import ai from "../../assets/ai.png";
 
 const Header = () => {
   return (
-    <div className="header section__padding" id="home">
+    <div className="header" id="home">
       <section className="header__content">
         <h1 className="gradient__text">
           Let’s Build Something amazing with GPT-3 <br/> OpenAI
@@ -17,7 +17,7 @@ const Header = () => {
           we years to order allow asked of.
         </p>
 
-        <div className="header__contentInput">
+        <div className="header__form">
           <input
             type="email"
             placeholder="Your Email Address"
@@ -27,7 +27,7 @@ const Header = () => {
           <button type="button">Get Started</button>
         </div>
 
-        <div className="header__contentPeople">
+        <div className="header__people">
           <img src={people} alt="people" />
           <p>
             1,600 people requested access a visit in last 24 hours

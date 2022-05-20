@@ -4,14 +4,10 @@
   justify-content: space-between;
   align-items: center;
   gap: 5rem;
-  /* global 92%+ browsers support */
-  //background: linear-gradient(270deg, #002853 0%, #040c18 100%);
   position: relative;
 
-  // *this is the gradient surrounding the features section
   &:before {
     content: "";
-    //border: 1px solid white;
     height: 1500px;
     width: 1000px;
     position: absolute;
@@ -25,37 +21,26 @@
   }
 
   .features__heading {
-    flex: 0.5;
+    flex: 0.4;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 450px;
+    height: 500px;
     gap: 2rem;
-    //margin-top: -2.5rem;
 
     h2 {
-      font-family: var(--font-family);
-      font-style: normal;
-      font-weight: 800;
-      font-size: 48px;
-      line-height: 61px;
-      text-transform: none;
+      text-transform: capitalize;
     }
 
     p {
-      font-family: "Manrope";
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 30px;
       color: rgb(255, 138, 113);
       cursor: pointer;
     }
   }
 
   .features__container {
-    flex: 0.5;
+    flex: 0.6;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -70,9 +55,9 @@
         margin: 0;
 
         h3 {
-          font-weight: 700;
-          font-size: 1rem;
-          //color: rgba(250, 250, 250, 0.85);
+          font-weight: 800;
+          font-size: 18px;
+          line-height: 24px;
         }
       }
 
@@ -80,9 +65,7 @@
         flex: 0.7;
 
         p {
-          margin-top: 1rem;
-          font-weight: 400;
-          font-size: 14px;
+          margin-top: 0;
         }
       }
     }
