@@ -3,19 +3,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
   position: relative;
 
   &:before {
     content: "";
-    height: 1500px;
+    height: 1800px;
     width: 1000px;
     position: absolute;
     left: 0;
     background: radial-gradient(
       circle at 0% 45%,
       #002853 0%,
-      #040c18 50%
+      #040c18 60%
     );
     z-index: -1;
   }
@@ -32,8 +32,8 @@
     h2 {
       font-size: 48px;
       line-height: 60px;
+      font-weight: 800;
       width: 17ch;  
-      font-weight: 700;
     }
 
     p {
@@ -62,6 +62,7 @@
           font-weight: 700;
           font-size: 18px;
           line-height: 24px;
+          color: #ccc;
         }
       }
 
@@ -69,9 +70,11 @@
         flex: 0.7;
 
         p {
-          font-size:14px;
-          line-height: 24px;
+          font-size:15px;
+          line-height: 30px;
           margin-top: 0;
+          color: rgba(129, 175, 221, 0.64);
+          margin-top: .4rem;
         }
       }
     }
