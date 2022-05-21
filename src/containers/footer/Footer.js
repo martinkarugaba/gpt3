@@ -12,14 +12,14 @@ const Footer = () => {
       </div>
 
       <div className="footer__btn">
-        <p>Request Early Access</p>
+        <button>Request Early Access</button>
       </div>
 
       <div className="footer__content">
         <div className="footer__logo">
           <img src={gpt3Logo} alt="logo" />
           <address>
-            Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved
+            <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
           </address>
         </div>
 

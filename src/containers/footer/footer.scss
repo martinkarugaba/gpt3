@@ -1,0 +1,90 @@
+.footer {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-footer);
+
+  .footer__heading {
+    width: 100%;
+    text-align: center;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 62px;
+      line-height: 75px;
+      text-align: center;
+      letter-spacing: -0.04em;
+      width: 20ch;
+    }
+  }
+
+  .footer__btn {
+    margin: 1rem 0 8rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 1rem 1.5rem;
+
+    button {
+      background: transparent;
+      font-family: "Gilroy-Medium";
+      font-size: 1rem;
+      line-height: 30px;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+  }
+
+  .footer__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-bottom: 5rem;
+
+    div {
+      flex-basis: 150px;
+
+      h4 {
+        font-family: "Gilroy-Bold";
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 1rem;
+        font-weight: 500;
+      }
+
+      p {
+        font-weight: 300;
+        font-family: "Gilroy-Medium";
+        font-size: 16px;
+        line-height: 36px;
+        color: rgba(255, 255, 255, 0.6);
+      }
+    }
+
+    .footer__logo {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 118px;
+        height: 60px;
+        margin-top: -0.7rem;
+      }
+
+      p{
+        font-style: normal;
+      }
+    }
+  }
+}
