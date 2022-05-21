@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 700px;
 
   .possibility__image {
     flex: 0.5;
@@ -17,17 +18,17 @@
 
   .possibility__content {
     flex: 0.5;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
     gap: 31px;
-    height: 650px;
+    height: 100%;
 
     h4 {
       font-family: "Manrope";
       font-style: normal;
-      font-weight: 500;
+      font-weight: 490;
       font-size: 14px;
       line-height: 24px;
       color: #71e5ff;
@@ -37,17 +38,17 @@
     h2 {
       font-family: "Manrope";
       font-style: normal;
-      font-weight: 800;
-      font-size: 34px;
-      line-height: 45px;
-      width: 20ch;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 60px;
+      //width: 12ch;
     }
 
     p {
       font-family: "Manrope";
       font-weight: 400;
-      font-size: 15px;
-      line-height: 24px;
+      font-size: 16px;
+      line-height: 30px;
       color: #81afdd;
     }
 
@@ -56,7 +57,7 @@
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
-      line-height: 24px;
+      line-height: 0;
       color: #ff8a71;
       cursor: pointer;
     }
