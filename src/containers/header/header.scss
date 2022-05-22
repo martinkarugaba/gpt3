@@ -18,15 +18,15 @@
   h1 {
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 60px;
-    line-height: 72px;
+    font-size: 54px;
+    line-height: 60px;
     letter-spacing: -0.04em;
   }
 
   p {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 30px;
     color: var(--color-text);
     width: 55ch;
@@ -60,7 +60,7 @@
       font-family: "Manrope";
       font-weight: 500;
       font-size: 14px;
-      padding: 1.2rem 1.5rem;
+      padding: 1rem 1.5rem;
 
       border: none;
       outline: none;
@@ -73,7 +73,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 1rem;
 
     img {
       width: 181.79px;
